@@ -1,3 +1,5 @@
+package iseseisev;
+
 public class Question {
     // Isendiväljad (private)
     private int id;
@@ -21,7 +23,7 @@ public class Question {
 
     // Meetod küsimuse info kuvamiseks
     public void printInfo() {
-        System.out.println("Question " + id + ": " + question);
+        System.out.println("iseseisev.Question " + id + ": " + question);
         System.out.println("1. " + opt1);
         System.out.println("2. " + opt2);
         System.out.println("3. " + opt3);

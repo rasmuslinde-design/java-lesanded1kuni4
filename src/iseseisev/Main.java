@@ -1,13 +1,15 @@
+package iseseisev;
+
 public class Main {
     public static void main(String[] args) {
-        // Loo kolm erinevat Question objekti
+        // Loo kolm erinevat iseseisev.Question objekti
         Question question1 = new Question(
                 1,
                 "Which of these is a Java data type?",
                 "String",
                 "System",
                 "Scanner",
-                "Main",
+                "iseseisev.Main",
                 "String"
         );
 

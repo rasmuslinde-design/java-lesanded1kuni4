@@ -1,3 +1,5 @@
+package week2;
+
 public class Ylesanne29 {
     public static void main(String[] args) {
         int number = 2;
